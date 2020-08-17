@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="">
+    <style media="screen">
+
+    body{
+      background: url('books.jpg');
+      background-size:cover;
+      font-family: arial;
+    }
+    .wrap{
+      max-width: 350px;
+      margin: auto;
+      background: rgba(0, 0, 0, 0.8);
+      box-sizing: border-box;
+      padding: 40px;
+      color:#fff;
+      margin-top: 5%;
+      margin-right: auto;
+    }
+    .wrap input[type=text],input[type=password]{
+      padding: 12px 5px;
+      margin: 5px;
+      width=100%;
+      outline: none;
+      background: rgba(0,0,0,0.10);
+      border:none;
+      border-bottom: 3px solid #fff;
+      border-radius: 5px;
+      border-sizing:border-box;
+      color:#fff;
+      font-width:bold;
+    }
+    .wrap h3{
+      margin-left: 50px;
+      margin-top: 30px;
+    }
+    .wrap input[type=text]:focus,input[type=password]:focus{
+      width:100%;
+      border-bottom: 3px dotted red;
+    }
+     .wrap input[type=submit]{
+       width:50%;
+       box-sizing: border-box;
+       margin-top:30px;
+       outline: none;
+       background: #60adde;
+       border: none;
+       opacity: 0.7;
+       border-radius: 20px;
+       font-size:20px;
+       color: #fff;
+       margin-top: 10px;
+     }
+     .wrap input[type=submit]:hover{
+       background: #003366;
+       opacity: 0.7;
+     }
+     nav {
+       color:red;
+       width:100%;
+       padding:15px;
+       background: #601b75;
+     }
+
+
+    </style>
+  </head>
+  <body>
+    <nav>
+      <p><b>HOME<b></p>
+    </nav>
+
+    <div class="wrap">
+      <form class="" action="like.php" method="post">
+
+
+      <h2>Sign Up</h2>
+      <input type="text" name="FirstName" placeholder="First Name" required>
+      <input type="text" name="LastName" placeholder="Last Name" required>
+      <input type="text" name="username" placeholder="username" required>
+      <input type="text" name="mobilenumber" placeholder="Mobile Number" required>
+        <input type="password" name="password" placeholder="password" required>
+        <input type="submit" value="Sign Up" name="rsign">
+        </form>
+
+    </div>
+
+
+
+
+  </body>
+</html>
